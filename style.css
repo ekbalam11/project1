@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-body{
+html, body{
     font-family: 'Poppins', sans-serif;
     background-color: #f5f5f5;
+    width: 100%;
 }
-
+ 
 .nav-bar{
-    padding: 3rem 5rem;
+    padding: 1rem 2rem;
+    font-size: .5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,7 +24,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     list-style: none;
     color: var(--dark-gray);
 }
@@ -38,4 +40,33 @@ button{
     color: aliceblue;
     padding: 0.5rem 1rem;
     border: none;
+}
+
+@media (min-width: 481px) {
+
+    .nav-bar{
+        padding: 3rem 5rem;
+        font-size: 1rem;
+    }
+    .nav-bar-list ul{
+        gap: 3rem;
+    }
+}
+
+@media (min-width: 780px) {
+    .nav-bar{
+        font-size: 1.5rem;
+    }
+    .nav-bar-list ul{
+        gap: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .nav-bar{
+        padding: 3rem 10rem;
+    }
+    .nav-bar-list ul{
+        gap: 7rem;
+    }
 }
