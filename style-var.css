@@ -17,11 +17,13 @@
 
 html, body{
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
+    background-color: var(--white);
     width: 100%;
 }
 section{
-    padding: 2rem;
+    height: 90dvh;
+    padding: 1rem 2rem;
+    border: 3px solid var(--gray);
 }
 h1{
     font-size: 3rem;
@@ -53,6 +55,9 @@ a{
     text-decoration: none;
     color: var(--white);
 }
+
+/* ------------------------text classes */
+
 .body-intro-text-24{
     font-size: 1rem;
     font-weight: 600
@@ -77,4 +82,23 @@ a{
 .caption-2{
     font-size: .4rem;
     font-weight: 300;
+}
+
+
+/* ------------------spacing classes */
+
+.frame-1rem{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    position: relative;
+    border: 1px solid var(--gray);
+}
+
+
+/* ----------------------------logos */
+
+.logo{
+    scale: 0.75;
 }

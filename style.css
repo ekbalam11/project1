@@ -4,6 +4,7 @@
 
 .nav-bar{
     padding: 1rem 2rem;
+    height: 10dvh;
     font-size: .5rem;
     display: flex;
     flex-direction: row;
@@ -29,11 +30,12 @@
 
 /* ------------------------------- home-section */
 
-.home-section-intro{
-    height: 100vh;
+.home-section-intro{   
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: space-around;
+    border: 1px solid var(--gray);
+
 }
 .home-section-intro p{
     text-align: center;
@@ -44,6 +46,32 @@
     align-items: center;
     justify-content: center;
     gap: 1rem; 
+}
+
+.home-section-image{
+    display: flex;
+    flex-direction: column;
+}
+
+#abs-img1{
+    position: absolute;
+    scale: 0.75;
+    top: -15%;
+    right: 30%;
+    z-index: 999;
+}
+#abs-img2{
+    position: absolute;
+    scale: 0.5;
+    top: 35%;
+    left: 30%;
+    z-index: 999;
+}
+
+.home-section-image-logos-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
 }
 
 @media (min-width: 481px) {
