@@ -17,10 +17,14 @@
 
 html, body{
     font-family: 'Poppins', sans-serif;
-    background-color: var(--white);
+    background-color: #E5E5E5;
     width: 100%;
 }
 section{
+    padding: 3rem 2rem;
+    border: 3px solid var(--gray);
+}
+header{
     height: 90dvh;
     padding: 1rem 2rem;
     border: 3px solid var(--gray);
@@ -83,6 +87,11 @@ a{
     font-size: .4rem;
     font-weight: 300;
 }
+.learn-more-link{
+    font-size: .7rem;
+    font-weight: 600;
+    color: var(--blue1);
+}
 
 
 /* ------------------spacing classes */
@@ -93,12 +102,5 @@ a{
     flex-direction: column;
     gap: 4rem;
     position: relative;
-    border: 1px solid var(--gray);
 }
 
-
-/* ----------------------------logos */
-
-.logo{
-    scale: 0.75;
-}
