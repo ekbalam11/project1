@@ -25,17 +25,25 @@
             <button><a href="/contact-us.html">Contact Us</a></button>
         </div>
     </nav>
-    <section class="contact-us-section">
-        <h1>Contact Us</h1>
-        <form class="contact-us-section-form">
-            <label for="full-name">Full Name*</label>
-            <input type="text" id="full-name" name="full-name" required>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email">
-            <label for="phone">Phone</label>
-            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
-            <label for="message">Message*</label>
-            <textarea name="message" id="message" cols="30" rows="10" required placeholder="Write your message here..."></textarea>
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <form class="contact-section-form">
+            <div class="contact-section-form-name">
+                <label for="full-name">Full Name*</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
+            </div>
+            <div class="contact-section-form-email">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address">
+            </div>
+            <div class="contact-section-form-phone">
+                <label for="phone">Phone</label>
+                <input type="string" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+            <div class="contact-section-form-message">
+                <label for="message">Message*</label>
+                <textarea name="message" id="message" cols="30" rows="10" required placeholder="Write your message here..."></textarea>
+            </div>
             <button type="submit">Submit</button>
         </form>
     </section>

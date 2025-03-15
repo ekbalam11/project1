@@ -1,7 +1,8 @@
 :root {
     --white: #F2F4FC;
     --black: #292E47;
-    --gray: #6B708D; 
+    --gray-transparent: #6b708d; 
+    --gray-transparent: #6b708d1e; 
     --gray-blue: #ECF7FF;
     --blue1: #072AC8;
     --blue2: #43D2FF;
@@ -36,7 +37,7 @@ h1{
 }
 h2{
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 800;
 }
 h3{
     font-size: 1.5rem;
