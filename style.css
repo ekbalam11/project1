@@ -148,6 +148,26 @@
     background-color: var(--white);
 }
 
+/* ----------------------footer section */
+.footer-section{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-section a{
+    color: var(--gray);
+}
+.circle-logo{
+    max-width: 100px;
+}
+.footer-section-links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
 @media (min-width: 481px) {
 
     .nav-bar{
