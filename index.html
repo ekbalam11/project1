@@ -55,7 +55,7 @@
 
     <section class="recent-projects-section">
         <h2>Recent Projects</h2>
-        <div class="recent-projects-section-cards">
+        <div class="recent-projects-section-cards cards-section">
             <div class="card">
                 <img src="/img/projects-section/1.jpg" alt="">
                 <div class="card-content">
@@ -101,29 +101,38 @@
     </section>
     <section class="our-services-section">
         <h2>Our Services</h2>
-        <div class="our-services-section-cards">
+        <div class="our-services-section-cards cards-section">
             <div class="card">
-                <img src="/img/services-section/icons/1.svg" alt="">
+                <div class="img-border">
+                    <img src="/img/services-section/icons/1.svg" alt="">
+                </div>
                 <div class="card-content">
                     <h3>User Interface Design</h3>
-                    <p>Circle provides you with a stunning user interface design that is accesible to everyone.</p>
-                    <a href="/">Learn more</a>
+                    <p class="headline-text-17-normal">Circle provides you with a stunning user interface design that is
+                        accesible to everyone.</p>
+                    <a class="learn-more-link" href="/">Learn more</a>
                 </div>
             </div>
             <div class="card">
-                <img src="/img/services-section/icons/2.svg" alt="">
+                <div class="img-border">
+                    <img src="/img/services-section/icons/2.svg" alt="">
+                </div>
                 <div class="card-content">
                     <h3>User Experience Design</h3>
-                    <p>Circle always focuses on delivering the best user experience to your customers.</p>
-                    <a href="/">Learn more</a>
+                    <p class="headline-text-17-normal">Circle always focuses on delivering the best user experience to
+                        your customers.</p>
+                    <a class="learn-more-link" href="/">Learn more</a>
                 </div>
             </div>
             <div class="card">
-                <img src="/img/services-section/icons/3.svg" alt="">
+                <div class="img-border">
+                    <img src="/img/services-section/icons/3.svg" alt="">
+                </div>
                 <div class="card-content">
                     <h3>Application Development</h3>
-                    <p>We develop high-quality mobile and web applications using the latest technology stack.</p>
-                    <a href="/">Learn more</a>
+                    <p class="headline-text-17-normal">We develop high-quality mobile and web applications using the
+                        latest technology stack.</p>
+                    <a class="learn-more-link" href="/">Learn more</a>
                 </div>
             </div>
         </div>
@@ -133,12 +142,14 @@
     <section class="newsletter-section">
         <h2>Do you have any questions?</h2>
         <p>Let us help you!</p>
-        <form class="newsletter-section-form" action="/">
-            <label for="email">
-                <img src="img/newsletter/icon/mail.svg" alt="">
-                <input type="text" id="email" name="email" placeholder="Enter your email">
-            </label>
-            <button type="submit" value="Subscribe">Subscribe</button>
+        <form action="/">
+            <div class="newsletter-section-form">
+                <div class="newsletter-section-input">
+                    <img src="img/newsletter/icon/mail.svg" alt="">
+                    <input type="text" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <button type="submit" value="Subscribe">Subscribe</button>
+            </div>
         </form>
     </section>
 

@@ -90,7 +90,7 @@
 
 
 /* -------------------recent projects section */
-.recent-projects-section-cards{
+.cards-section{
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -107,6 +107,46 @@
     justify-content: space-between;
 }
 
+
+/* ----------------------our services section */
+.our-services-section-cards .img-border{
+    scale: 0.75;
+    padding: 1rem;
+    max-width: 120px;
+    background-color: var(--gray-blue);
+    border: 12px solid var(--gray-blue);
+    border-radius: 50%;
+}
+.our-services-section-cards .card-content{
+    gap: 1rem;
+}
+
+/* -----------------------newsletter section */
+.newsletter-section{
+    background-color: var(--yellow);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.newsletter-section-form{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+.newsletter-section img{
+    width: 50px;
+}
+.newsletter-section-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--white);
+}
 
 @media (min-width: 481px) {
 
