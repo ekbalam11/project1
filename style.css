@@ -348,6 +348,9 @@
     .testimonial-section-emoji{
         width: 10%;
     }
+    .our-services-section-cards h3{
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 1024px) {
