@@ -21,6 +21,10 @@ html, body{
     background-color: #E5E5E5;
     width: 100%;
 }
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 section{
     padding: 3rem 2rem;
 }
