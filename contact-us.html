@@ -12,17 +12,22 @@
 <body>
     <nav class="nav-bar">
         <div class="nav-bar-logo">
-            <img src="img/logos/circle.svg" alt="circle-logo">
+            <a href="/index.html"><img src="img/logos/circle.svg" alt="circle-logo"></a>
         </div>
-        <div class="nav-bar-list">
-            <ul>
+        <div class="menu-toggle" id="menuToggle">
+            ☰
+        </div>
+        <div class="nav-bar-list" id="navLinks">
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="#">Services</a></li>
+                <li><a href="#services">Services</a></li>
             </ul>
         </div>
         <div class="nav-bar-btn">
-            <button><a href="/contact-us.html">Contact Us</a></button>
+            <a href="/contact-us.html">
+                <button>Contact Us</button>
+            </a>
         </div>
     </nav>
     <section class="contact-section">

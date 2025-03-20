@@ -12,19 +12,23 @@
 <body>
     <nav class="nav-bar">
         <div class="nav-bar-logo">
-            <img src="img/logos/circle.svg" alt="circle-logo">
+            <a href="/index.html"><img src="img/logos/circle.svg" alt="circle-logo"></a>
         </div>
-        <div class="nav-bar-list">
-            <ul>
+        <div class="menu-toggle" id="menuToggle">
+            ☰
+        </div>
+        <div class="nav-bar-list" id="navLinks">
+            <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="#services">Services</a></li>
             </ul>
         </div>
         <div class="nav-bar-btn">
-            <button><a href="/contact-us.html">Contact Us</a></button>
+            <a href="/contact-us.html">
+                <button>Contact Us</button>
+            </a>
         </div>
-
     </nav>
     <div class="wide-resolution-header">
         <header class="home-section-intro">
@@ -100,7 +104,8 @@
         <div class="testimonial-section-flex-row2">
             <img class="testimonial-section-emoji" src="/img/testimonial-section/memoji-3.png" alt="">
             <div class="testimonial-section-review">
-                <div class="testimonial-picture-frame"><img id="testimonial-section-picture" src="/img/testimonial-section/profile.png" alt="Kristin Watson"></div>
+                <div class="testimonial-picture-frame"><img id="testimonial-section-picture"
+                        src="/img/testimonial-section/profile.png" alt="Kristin Watson"></div>
                 <div class="testimonial-section-review-text">
                     <h4 class="testimonial-section-review-text-title">Kristian Watson</h4>
                     <p>Booking.com</p>
@@ -175,9 +180,9 @@
         </div>
     </section>
 
-<script src="script.js">
-    fetchData();
-</script>
+    <script src="script.js">
+        fetchData();
+    </script>
 </body>
 
 </html>
